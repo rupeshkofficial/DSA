@@ -148,12 +148,7 @@ public class BinaryTree {
         return sum;
     }
 
-    public static ArrayList<Node> nodeToRootPath(Node root, int data) {
-
-    }
-
-    public static void printKLevelsDown(Node node, int k,ArrayList<Integer> ans) {
-        
-    }
-
+    
 }
+
+

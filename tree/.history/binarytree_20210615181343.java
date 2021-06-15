@@ -119,7 +119,7 @@ public class BinaryTree {
             return 0;
         if (node.left == null && node.right == null)
             return 1;
-
+ff
         return countLeaves(node.left) + countLeaves(node.right);
     }
 
@@ -148,12 +148,6 @@ public class BinaryTree {
         return sum;
     }
 
-    public static ArrayList<Node> nodeToRootPath(Node root, int data) {
-
-    }
-
-    public static void printKLevelsDown(Node node, int k,ArrayList<Integer> ans) {
-        
-    }
-
 }
+
+
